@@ -1,0 +1,12 @@
+GET http://localhost:3000/loosers
+###
+
+GET http://localhost:3000/loosers/12
+###
+
+POST http://localhost:3000/loosers
+Content-Type: application/json
+
+{ "name": "Looser 1",
+"loosersToChanel": "Lukash"
+}
